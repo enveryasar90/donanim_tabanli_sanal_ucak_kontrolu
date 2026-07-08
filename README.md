@@ -8,6 +8,8 @@ Bu proje, fiziksel sensör verilerini ve standart USB oyun kumandası sinyalleri
 
 Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensöründen alınan açısal verileri (Pitch ve Roll) asenkron seri haberleşme üzerinden Unity'ye aktarır. Yönlendirme fiziksel sensör ile yapılırken, gaz, fren ve motor sesi dinamikleri standart bir USB PS1 kolu (HID) üzerinden okunarak tam bir hibrit kokpit deneyimi sunulur.
 
+![Fiziksel Sistem Kurulumu](Images/fiziksel_sistem.jpeg)
+
 ## ✨ Temel Özellikler
 
 * **Multi-Threading (Çoklu İş Parçacıklı) Mimari:** Seri port okuma işlemleri ana Unity döngüsünden (Main Thread) ayrılarak C# Thread'leri içine alınmıştır. Bu sayede kablo kopmaları veya sensör temassızlıklarında oyunun kilitlenmesi (DontDestroyOnLoad hataları) %100 engellenmiştir.
@@ -22,11 +24,15 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 * C# (Oyun mantığı ve Thread yönetimi)
 * Arduino IDE & C++ (Gömülü sistem kodlaması)
 
+![Arduino Devresi](Images/arduino.jpeg)
+
 **Donanım:**
 * Arduino UNO / Nano
 * MPU6050 (6 Eksenli IMU Sensörü)
 * PS1 USB Controller (Gaz ve fren kontrolleri için)
 * Özel tasarım 3D baskı Gimbal / Mafsal standı
+
+![Unity Oyun Ekranı](Images/ucak_video.gif)
 
 ## 💻 Kurulum ve Çalıştırma
 
@@ -37,3 +43,5 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 
 ---
 **Geliştirici:** Enver Yaşar
+
+![Unity Oyun Ekranı](Images/unity-ekrani.png)
