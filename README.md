@@ -2,13 +2,13 @@
 
 Bu proje, fiziksel sensör verilerini ve standart USB oyun kumandası sinyallerini gerçek zamanlı olarak harmanlayarak Unity 6 oyun motorunda çalışan bir uçuş simülatörünü kontrol etmeyi amaçlayan bir donanım-yazılım entegrasyonu projesidir.
 
-![Uçuş Demo](Images/ucak_surus.gif)
+<img src="Images/ucak_surus.gif" width="700">
 
 ## 🚀 Proje Hakkında
 
 Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensöründen alınan açısal verileri (Pitch ve Roll) asenkron seri haberleşme üzerinden Unity'ye aktarır. Yönlendirme fiziksel sensör ile yapılırken, gaz, fren ve motor sesi dinamikleri standart bir USB PS1 kolu (HID) üzerinden okunarak tam bir hibrit kokpit deneyimi sunulur.
 
-![Fiziksel Sistem Kurulumu](Images/fiziksel_sistem.jpeg)
+<img src="Images/fiziksel_sistem.jpeg" width="400">
 
 ## ✨ Temel Özellikler
 
@@ -24,7 +24,7 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 * C# (Oyun mantığı ve Thread yönetimi)
 * Arduino IDE & C++ (Gömülü sistem kodlaması)
 
-![Arduino Devresi](Images/arduino.jpeg)
+<img src="Images/arduino.jpeg" width="350">
 
 **Donanım:**
 * Arduino UNO / Nano
@@ -32,7 +32,7 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 * PS1 USB Controller (Gaz ve fren kontrolleri için)
 * Özel tasarım 3D baskı Gimbal / Mafsal standı
 
-![Unity Oyun Ekranı](Images/ucak_video.gif)
+<img src="Images/ucak_video.gif" width="400">
 
 ## 💻 Kurulum ve Çalıştırma
 
@@ -44,4 +44,4 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 ---
 **Geliştirici:** Enver Yaşar
 
-![Unity Oyun Ekranı](Images/unity-ekrani.png)
+<img src="Images/unity-ekrani.png" width="400">
