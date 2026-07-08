@@ -30,7 +30,6 @@ Sistem, bir Arduino mikrodenetleyicisi ve MPU6050 jiroskop/ivmeölçer sensörü
 * Arduino UNO / Nano
 * MPU6050 (6 Eksenli IMU Sensörü)
 * PS1 USB Controller (Gaz ve fren kontrolleri için)
-* Özel tasarım 3D baskı Gimbal / Mafsal standı
 
 <img src="Images/ucak_video.gif" width="400">
 
