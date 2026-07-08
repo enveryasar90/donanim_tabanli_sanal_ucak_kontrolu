@@ -2,7 +2,7 @@
 
 Bu proje, fiziksel sensör verilerini ve standart USB oyun kumandası sinyallerini gerçek zamanlı olarak harmanlayarak Unity 6 oyun motorunda çalışan bir uçuş simülatörünü kontrol etmeyi amaçlayan bir donanım-yazılım entegrasyonu projesidir.
 
-<img src="Images/ucak_surus.gif" width="700">
+<img src="Images/ucak_surus.gif" width="400">
 
 ## 🚀 Proje Hakkında
 
