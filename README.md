@@ -1,4 +1,4 @@
-# ✈️ Hardware-in-the-Loop (HIL) Hibrit Uçuş Simülatörü
+# ✈️ Hibrit Uçuş Simülatörü
 
 Bu proje, fiziksel sensör verilerini ve standart USB oyun kumandası sinyallerini gerçek zamanlı olarak harmanlayarak Unity 6 oyun motorunda çalışan bir uçuş simülatörünü kontrol etmeyi amaçlayan bir donanım-yazılım entegrasyonu projesidir.
 
